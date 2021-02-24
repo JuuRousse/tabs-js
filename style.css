@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 10px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs-section {
+  flex-basis: 20%;
+}
+
+.tab {
+  border-left: 1px solid #000000;
+}
+
+.tab {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.tab.active {
+  font-weight: 700;
+}
+
+.content-section {
+  flex-basis: 75%;
+}
+
+.tab-content {
+  width: 100%;
+}
+
+.tab-content img {
+  width: 100%;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
