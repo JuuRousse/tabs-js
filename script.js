@@ -1,3 +1,27 @@
+document.querySelector('#app').innerHTML = `
+<div class="container">
+    <div class="tabs-section">
+        <div class="tabs">
+            <div class="tab active">Kitten</div>
+            <div class="tab">Puppy</div>
+            <div class="tab">Humster</div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <div class="tab-content">
+            <img src="./img/images.jpg" alt="kitten">
+        </div>
+        <div class="tab-content">
+            <img src="./img/Corgi-puppy-1-scaled.jpg" alt="puppy">
+        </div>
+        <div class="tab-content">
+            <img src="./img/hamster-690108_1920-pic905-895x505-8554.jpg" alt="puppy">
+        </div>
+    </div>
+</div>
+`
+
 const tabs = document.querySelector('.tabs');
 const tab = document.querySelectorAll('.tab');
 const tabContent = document.querySelectorAll('.tab-content');
